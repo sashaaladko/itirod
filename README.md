@@ -5,4 +5,4 @@ https://www.figma.com/file/1Sy3qiwunfmc35j5psBBOH/Untitled2?node-id=0%3A1
 
 # модели данных:
 1. user(id, firstname, lastname, email, password)
-2. photo(description, delete, download)
+2. photo(description, foldername, img, date)
