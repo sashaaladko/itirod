@@ -1,14 +1,14 @@
-var HIDDEN_CLASS_NAME = 'hidden'
-var TARGET_CLASS_NAME = 'target'
-var SOURCE_CLASS_NAME = 'source'
+const HIDDEN_CLASS_NAME = 'hidden'
+const TARGET_CLASS_NAME = 'target'
+const SOURCE_CLASS_NAME = 'source'
 
 var targetIdToShow = 1
 
 function main() {
-	var targets = getElements(TARGET_CLASS_NAME)
-	var sources = getElements(SOURCE_CLASS_NAME)
+	let targets = getElements(TARGET_CLASS_NAME)
+	let sources = getElements(SOURCE_CLASS_NAME)
 	sources.forEach(function (sourceNode) {
-		var sourceNodeId = extractId(sourceNode, SOURCE_CLASS_NAME)
+		let sourceNodeId = extractId(sourceNode, SOURCE_CLASS_NAME)
 		sourceNode.addEventListener('click', function () {
 			showTarget(targets, sourceNodeId)
 		})
