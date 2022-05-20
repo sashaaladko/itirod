@@ -4,17 +4,17 @@ header {
     background: rgba(93, 199, 97,0.7);
     height: 90px; 
     display: flex;
+    z-index: 1;
 }
-li{
+.headerlist{
     display: inline;
     padding-right: 50px;
     font-size: 30px;
 }
-ul {
+.headermenu {
     padding-right: 60px;
     padding-top: 27px;
     flex: 1;
-
 }
 .logo {
     flex: 2;
